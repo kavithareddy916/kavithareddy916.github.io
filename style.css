@@ -1253,3 +1253,20 @@ footer {
 .navbar .nav-link {
     transition: color 0.3s ease;
 }
+
+/* =================================
+   CONTACT SCROLL REVEAL
+================================= */
+
+.contact-box.reveal {
+    opacity: 0;
+    transform: translateY(45px);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+.contact-box.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
