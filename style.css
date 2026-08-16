@@ -1255,15 +1255,13 @@ footer {
 }
 
 /* =================================
-   CONTACT SCROLL REVEAL
+   CONTACT BOX SCROLL ANIMATION
 ================================= */
 
-.contact-box.reveal {
+.contact-box {
     opacity: 0;
-    transform: translateY(45px);
-    transition:
-        opacity 0.8s ease,
-        transform 0.8s ease;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
 }
 
 .contact-box.reveal-visible {
