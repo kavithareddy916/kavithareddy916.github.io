@@ -1254,17 +1254,4 @@ footer {
     transition: color 0.3s ease;
 }
 
-/* =================================
-   CONTACT BOX SCROLL ANIMATION
-================================= */
 
-.contact-box {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 1s ease, transform 1s ease;
-}
-
-.contact-box.reveal-visible {
-    opacity: 1;
-    transform: translateY(0);
-}
